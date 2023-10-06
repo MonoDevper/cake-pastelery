@@ -1,0 +1,428 @@
+header .img{
+    border-radius: 50px;
+    position: absolute;
+    left: 2%;
+}
+
+
+body {
+    background: #4b3535;
+    font-family: 'Galada', cursive;
+    
+}
+
+#seccion-postres {
+    background: blue;
+    width:400px;
+    
+    max-width: 900px ;
+    min-width : 400px ;
+    margin: 0 auto ; 
+}
+
+
+.contenedor-header{
+    background: #ffa2f1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 16%;
+    
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+}
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color:rgb(48, 22, 22);
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-size: 22px;
+}
+.contenedor-header header nav ul li a:hover{
+    color: rgb(48, 22, 22);
+}
+.nav-responsive{
+    background-color: mediumorchid;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+main {
+    
+    padding-top: 100px;
+}
+
+.logo{
+    font-family: 'Galada', cursive;
+    margin-left: 2%;
+   
+}
+
+.contenidoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 70%;
+    
+}
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+    color: #361b1b;
+}
+
+.contenidoPrincipal-cursos-link {
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+    
+}
+
+.contenidoPrincipal-cursos-link a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.contenidoPrincipal-cursos-link a:hover {
+color: rgb(48, 22, 22);
+
+}
+
+.contenidoPrincipal-cursos-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.contenidoPrincipal-cursos-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.contenidoPrincipal-cursos {
+	display: flex;
+	flex-wrap: wrap;
+    font-size: 22px;
+    
+}
+
+.contenidoPrincipal-cursos-link {
+	width: 23%;
+	margin: 1%;
+    color: #FFF;
+}
+
+.contenidoPrincipal-cursos-link:nth-child(4n) {
+	margin-right: 0;
+}
+
+.contenidoPrincipal-cursos-link:nth-child(4n+1) {
+	margin-left: 0;
+}
+
+.contenidoPrincipal-cursos-link {
+    background: linear-gradient(to top,rgba(48, 43, 43, 0.8) , rgb(49, 52, 52)),
+    url(cake66.jpg);
+}
+
+.subtitulo2{
+    font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.pedidos {
+    font-size: 22px;
+    padding: 30%;
+    padding-top: 20px;
+   
+    min-width: 10px;
+    min-height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.31em ;
+border:none ;
+color: #fff;
+cursor: pointer;
+transition: .3s ease all;
+font-size: 1.12em;
+}
+
+.caja{
+    padding: 80px;
+    font-size: 22px;
+}
+
+.parrafo{
+    font-size: 22px;
+}
+
+
+.direccion {
+    font-size: 22px;
+    padding-left: 200px;
+}
+
+.caja-2{
+    padding:80px ;
+}
+   
+/* SECCION carousel */
+
+
+.peliculas-recomendadas .contenedor-carousel {
+    height: 400px;
+    width: 50%;
+    width: 100%;
+	padding: 20px 0;
+	overflow:hidden;
+	scroll-behavior: smooth;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+	width: 100%;
+	vertical-align: top;
+}
+
+
+
+
+.peliculas-recomendadas {
+
+    margin-bottom: 70px;
+}
+
+.peliculas-recomendadas .contenedor-principal { display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda ,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+    background: rgba(0, 0, 0, 0.5);
+    border:none ;
+    font-size: 40px;
+    position: absolute;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: 2s ease all;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+
+    left: 0;
+}
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+    right: 0;
+}
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover ,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+    background: rgba(0, 0, 0, .9);
+
+}
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.peliculas-recomendadas .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow:hidden;
+	scroll-behavior: smooth;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+	width: 120%;
+	vertical-align: top;
+    height: 50vh;
+    border-radius: 45px;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding:10px;
+    background-color: #ffa2f1;
+    width:1291px;
+    left: -5%;
+    position: relative;
+    top: 20px;
+    height: 75px;
+}
+.copyright{
+    color:#361b1b;
+    font-size: 13px;
+    margin:15px;
+   position: relative;
+   top: -43px;
+}
+
+footer img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* portafolifo */
+
+
+
+.menu{
+   
+    color: #fff;
+    padding: 0px 20px;
+}
+.menu .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.menu h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.menu .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu .galeria .postre{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+.menu .galeria .postre img{
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+}
+.menu .galeria .postre .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(#ffa2f1,#FFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+    color: #361b1b;
+}
+.menu .galeria .postre .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+    padding: 20px;
+}
+.menu .galeria .postre .overlay:hover{
+    opacity: 1;
+}
+.menu .galeria .postre .overlay:hover h3{
+    margin-bottom: 0px;
+}
+
+.menu .galeria .postre .overlay p {
+color: antiquewhite;
+}
+
+

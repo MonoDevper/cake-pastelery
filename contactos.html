@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="disenos.css">
+    <link rel="stylesheet" href="conctactos.css">
+
+    <script src="https://kit.fontawesome.com/562477e374.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=EB+Garamond&family=Galada&family=Lobster&family=Oswald&family=Poppins&family=Righteous&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">    <title>Document</title>
+</head>
+<body>
+
+    <div class="contenedor-header">
+        <header>
+            <img class="img" src="clari-mini-logo.jpg" alt="">
+            <div class="logo">
+                <h1>Clari's Bakery <i class="fa-light fa-cupcake"></i> </h1>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="articulos.html" onclick="mover()">Home</a></li>
+                    <li><a href="home.html" onclick="mover()">Menu</a></li> 
+                    <li><a href="pedidos.html" onclick="mover()">Pedidos</a></li>
+                    <li><a href="contactos.html" onclick="mover()">contact</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+    </div>
+</br>
+
+    <!-- seccion de contactos  -->
+<div class="caja">
+    <div class="pedidos">
+       <h2 class="subtitulo2">Contact Me</h2>
+      <img src="logo-clari'sbakery.jpg" alt="">
+
+      <main>
+      <form  action="https://formspree.io/f/mpzgrbeo"
+      method="POST">
+        <div class="texto">
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron" required name="name">
+
+        <label for="correoelectronico">Correo Electrónico</label>
+        <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com" name="email">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX" name="tel">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required name="message"></textarea>
+        </div>
+        
+        
+        <input type="submit" value="Enviar formulario" class="enviar">
+
+    </form>
+      </main>
+        </div>
+    </div>        
+
+    
+    
+
+
+<!-- seccion de Direccion -->
+<div>
+    <h2 class="subtitulo">Nuestra Direccion  </h2>
+    <div class="direccion">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d773.0951909688414!2d-69.98320248169547!3d18.42739860467421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561a110c8572f%3A0x720f763a5d270974!2sColmado%20La%20Bendicion!5e0!3m2!1ses!2sdo!4v1682105528616!5m2!1ses!2sdo" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+<div class="parrafo">
+    <p>
+        Estamos ubicados en la calle 31 de febrero , entrando por el hogar crea al lado del colmado la bendicion ,
+         KM 11 de la independencia. para mas informacion dele click al enlace :
+          <a href="http://api.whatsapp.com/send?phone=8297407112" target="_blank" rel="noopener noreferrer">Contactenos a Nuestro WhatsApp</a>
+        
+        </p>
+        </div>
+</div> 
+
+
+<footer>
+    <p class="copyright"><img src="logo-clari'sbakery.jpg"> &copy Copyright Claris's Bakery - 2014</p>
+    </footer> 
+</body>
+</html>
